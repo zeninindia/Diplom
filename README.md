@@ -1,11 +1,18 @@
 # Diplom
 
-## Final diplom
-    
+## **Final diploma**
+
+
+### Steps
+1. Cклонировать проект `git clone https://github.com/zeninindia/Diplom.git`
+2. Установить все зависимости
+3. Запустить тесты `pytest`
+
 
 ### Список установок:
 
-* pip install pytest sylenium 
+* pip install pytest sylenium
+* pip install pytest
 * pip install selenium webdriver-manager
 * pip install requests pytest pytest-html pytest-cov responses python-dotenv loguru allure-pytest
 * python -m venv test_env
@@ -14,9 +21,10 @@
 * pip install requests
 * pip install selenium
 * pip install allure
+* config
 
 ### *Test structure*
-- ./tests - тесты
+- ./test - тесты
 - ./pages - описание страниц
 - ./api - хелперы по работе с **API**
 - ./db - хелперы по работе с **ДБ**
