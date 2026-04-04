@@ -14,4 +14,4 @@
 * pip install selenium
 
 ### Полезные ссылки
-* [генератор файла .gitignore](https://www.toptal.com/developers/gitignore/api/python,windows,pycharm,visualstudiocode,test)
+* [генератор файла .gitignore](https://www.toptal.com/developers/gitignore/api/python,windows,pycharm,visualstudiocode,test "нужно выбрать те функции с которыми работаем")
