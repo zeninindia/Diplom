@@ -14,4 +14,5 @@
 * pip install selenium
 
 ### Полезные ссылки
-* [генератор файла .gitignore](https://www.toptal.com/developers/gitignore/api/python,windows,pycharm,visualstudiocode,test "нужно выбрать те функции с которыми работаем")
+* Это про маркдаун, и как их использовать [Markdown](https://www.markdownguide.org/basic-syntax/)
+* Нужно выбрать те функции с которыми работаем и вот [генератор файла .gitignore](https://www.toptal.com/developers/gitignore/api/python,windows,pycharm,visualstudiocode,test)
