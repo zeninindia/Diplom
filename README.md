@@ -5,7 +5,7 @@
 
 ### Steps
 1. Cклонировать проект `git clone https://github.com/zeninindia/Diplom.git`
-2. Установить все зависимости
+2. Установить все зависимости `pip install -r requirements.txt` (чтобы мне вытащить все зависимости `pip freeze`)
 3. Запустить тесты `pytest`
 
 
