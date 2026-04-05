@@ -9,12 +9,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 
-# def browser(driver):
-#     driver = selenium.webdriver.Chrome()
-#     driver.maximize_window()
-#     return
-
-
 @pytest.fixture
 def driver():
     browser = webdriver.Chrome()
@@ -36,7 +30,7 @@ def test_ui_1(driver):
         captcha_button.click()
     except:
         pass
-    # driver.find_element(By.XPATH, "(//a[contains(text(),'Онлайн-кинотеатр')])[1]").click()
+
     # нажать на кнопку 'Онлайн-кинотеатр' XPATH (//a[contains(text(),'Онлайн-кинотеатр')])[1]
     online_cinema_btn = wait.until(
         EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'Онлайн-кинотеатр')]"))
@@ -47,10 +41,7 @@ def test_ui_1(driver):
     )
     button_free.click()
     # нажать на кнопку узнать больше CSS_SELECTOR class="ya_5197c563 ya_7e5621e5 AuthPromo-link"
-
-
-    #driver.get('https://www.kinopoisk.ru/')
-
-# https://www.kinopoisk.ru/?utm_referrer=organic.kinopoisk.ru
-# https://api.poiskkino.dev это API документация кинопоиска
-# "styles_iconHover__vNlVU styles_icon__lTtDI"
+    btn_know_more = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '[class="ya_5197c563 ya_7e5621e5 AuthPromo-link"]'))
+    )
+    driver.execute_script("arguments[0].scrollIntoView(true);", btn_know_more)
+    btn_know_more.click()
