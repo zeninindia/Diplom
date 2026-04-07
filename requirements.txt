@@ -1,4 +1,4 @@
-allure-pytest==2.15.3
+cdallure-pytest==2.15.3
 allure-python-commons==2.15.3
 async-generator==1.10
 attrs==25.4.0
