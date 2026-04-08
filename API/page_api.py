@@ -13,28 +13,7 @@ from selenium import webdriver
 # сюда нужно импортировать класс, и тогда фикстуры заработают
 from selenium.webdriver.chrome.options import Options
 
-#
-#
-#
-#
 
-#
-#     def open_search_page(self, page=None, limit=None, query=None, "pen"):
-#         url = "https://api.poiskino.dev"
-#         api_key = 'GH99NQ5-Y6W49WP-QF0T6RT-FRH4YP9'
-#         headers = {
-#             'X-API-KEY': api_key
-#
-#         }
-#         params = {
-#             'page': page,
-#             'limit': limit,
-#             'query': query
-#         }
-#
-#         response = self.requests.get(url +"pen", params=params, headers=headers)
-#         return response.json()
-#
 class Apipage:
     def __init__(self):
         self.url = "https://api.poiskkino.dev/"
